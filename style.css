@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Caveat:wght@400;600;700&family=Oswald:wght@300&family=Pacifico&family=Playfair+Display:wght@400;500&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Caveat:wght@400;600;700&family=Kalam:wght@700&family=Oswald:wght@300&family=Pacifico&family=Playfair+Display:wght@400;500&family=Young+Serif&display=swap');
+*{
+    padding:0px;
+    margin:0px;
+}
+
+
+.header{
+    background-color: rgb(255,240,192);
+    height: 10vh;
+    width: 100vw;
+}
+
+.logo{
+    float: left;
+    right: 20px;
+    margin: 1vh;
+    padding: 1vh;
+}
+
+.logo img{
+    width: 6vh;
+    height: 6vh;
+    min-width: 5vh;
+    min-height: 5vh;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.pages{
+    display: inline;
+    padding-right: 100px;
+    font-family:'Caveat';
+}
+.pages a{
+    text-decoration: none;
+    font-size: xx-large;
+}
+#pagesgroup{ 
+    float:right;
+    margin-left: 20px; 
+    margin-top: 20px;
+}
+.banner{
+    position: relative;
+    background-image: url(header2.jpeg);
+    background-size:cover;
+    background-position: center;
+    background-attachment: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 150vh;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.bannertext{
+    position: absolute;
+    top:5px;
+    left: 70px;
+    font-family:'kalam';
+    font-size: xx-large;
+}
+.bannertext h1{
+    color: rgb(114, 146, 178);
+
+}
+.banner h3{
+    color: rgb(255,240,192);
+}
+.banner h6{
+    color: 	rgb(253,210,197);
+}
+.banner span{
+    color: rgb(160, 140, 192);
+}
+#letsgo a{
+    color: 	rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(255,240,192);
+    height: 10vh;
+    width: 100vw;
+    
+}
+
+#socmeds{
+    float: right;
+    margin-top: 0px; 
+}
+
+.sc{
+    padding-right: 10px;
+    display: inline;
+    margin-top:20px ;
+}
+.sc a{
+    text-decoration: none;
+}
+.cp{
+    margin-top: 20px;
+    padding-left:  10%;
+    font-family:'kalam';
+
+}
+
+.images{
+    position: relative;
+    margin: 30px;
+    padding: 30px;
+    background-color:	rgb(253,210,197) ;
+}
+
+.part1{
+    display: inline-block;
+    background-color:	rgb(253,210,197) ;
+    left:30px;
+
+
+}
+.part2{
+    display: inline-block;
+}
+#gal h6{
+    font-size: xx-large;
+    color: rgb(68, 88, 150);
+    font-family:'kalam';
+}
+
+
+
