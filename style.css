@@ -87,6 +87,8 @@
     background-color: rgb(255,240,192);
     height: 10vh;
     width: 100vw;
+    margin-top: 0px;
+    margin-bottom: 0px;
     
 }
 
@@ -112,26 +114,53 @@
 
 .images{
     position: relative;
-    margin: 30px;
-    padding: 30px;
+    margin-bottom: 10px;
+    padding: 10px;
     background-color:	rgb(253,210,197) ;
 }
+
 
 .part1{
     display: inline-block;
     background-color:	rgb(253,210,197) ;
     left:30px;
-
-
+    margin: 5px;
 }
 .part2{
     display: inline-block;
 }
+
+#gal{
+    margin: 0px;
+    padding: 0px;
+}
+
 #gal h6{
     font-size: xx-large;
     color: rgb(68, 88, 150);
     font-family:'kalam';
 }
+.part1 h3{
+    color: rgb(68, 88, 150);
+    font-family:'kalam';
+}
+
+.part1 h4{
+    color: rgb(68, 88, 150);
+    font-family:'kalam';
+}
+
+.part2 h3{
+    color: rgb(68, 88, 150);
+    font-family:'kalam';
+}
+.images h5{
+    color: rgb(68, 88, 150);
+    font-family:'kalam';
+
+}
+
+
 
 
 
